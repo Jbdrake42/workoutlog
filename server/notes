@@ -1,0 +1,12 @@
+{
+    "user":{
+        "username": "billyboob",
+        "password": "fragher"
+    }}
+
+    {
+    "log":{
+        "description": "pushups",
+        "definition" : "pushing up",
+        "result": "pushed up"
+    }}
