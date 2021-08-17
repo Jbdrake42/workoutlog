@@ -10,11 +10,11 @@ let log = require('./controllers/logController')
 sequelize.sync();
 
 app.use(express.json());
-
+app.use(require('./middleware/header'))
 
 app.use('/test', test)
 app.use('/user', user)
-app.use('/workout', log)
+app.use('/log', log)
 
 // app.use('/log', log)
 app.listen(3000, function(){
